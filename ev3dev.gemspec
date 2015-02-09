@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "ev3dev ruby binding"
   s.authors     = ["quake wang"]
   s.email       = 'quake@chanyouji.com'
-  s.files       = ["lib/ev3dev.rb"]
+  s.files       = Dir['lib/ev3dev.rb'] + Dir['lib/ev3dev/*.rb']
   s.homepage    = 'http://rubygems.org/gems/ev3dev'
   s.license     = 'MIT'
 end
