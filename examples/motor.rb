@@ -4,9 +4,10 @@ end
 
 require 'ev3dev'
 
-m = Ev3dev::Motor.new :A
-p m.dev_path
+m = Ev3dev::Motor.new :B
+p m.device_path
 p "run mode: #{m.run_mode}"
+m.run_mode :time
+m.duty_cycle_sp 50
+m.time_sp 1000
 m.go
-sleep 1
-m.stop

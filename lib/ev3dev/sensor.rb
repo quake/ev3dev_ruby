@@ -1,6 +1,6 @@
 module Ev3dev
-  class Sensor < Ev3dev::Device
-    PATH = "/sys/class/msensor"
+  class Sensor < Device
+    PATH = "/sys/class/lego-sensor"
 
     def initialize(port)
       Dir.glob("#{PATH}/sensor*").each do |path|
