@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 if __FILE__ == $0
   $:.unshift File.join(File.dirname(__FILE__),'..','lib')
 end
@@ -37,6 +38,16 @@ t1 = Thread.new do
     m2.go
     m3.go
     sleep rand(1.5..1.9)
+
+    m2.duty_cycle_sp -50
+    m2.time_sp 1000
+    
+    m3.duty_cycle_sp -50
+    m3.time_sp 1000
+
+    m2.go
+    m3.go
+    sleep rand(2.0..2.5)
   end
 end
 
@@ -55,3 +66,6 @@ t2 = Thread.new do
     end
   end
 end
+
+t1.join
+t2.join
