@@ -1,1 +1,3 @@
-# ev3dev_ruby
+ev3dev ruby binding
+
+checkout examples

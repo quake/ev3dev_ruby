@@ -14,6 +14,7 @@ module Ev3dev
         IO.read(param).strip
       else
         IO.write param, args.first.to_s
+        self
       end
     end
   end
