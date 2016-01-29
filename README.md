@@ -106,8 +106,11 @@ irb(main):012:0>
 - [EV3 Ultrasonic Sensor](http://www.ev3dev.org/docs/sensors/lego-ev3-ultrasonic-sensor/)
 - [LEGO Sensor Class API](http://www.ev3dev.org/docs/drivers/lego-sensor-class/)
 
+### EV3 Drivers
 
-#### These hardwares on EV3 below are not supported yet.
+- [Battery](https://github.com/ev3dev/ev3dev/issues/68)
+
+#### These drivers on EV3 below are not supported yet.
 - [Sound](https://github.com/ev3dev/ev3dev/wiki/Using-Sound)
 - [LCD](http://www.ev3dev.org/docs/tutorials/using-ev3-lcd/)
 - [Buttons](http://www.ev3dev.org/docs/tutorials/using-ev3-buttons/)
@@ -117,4 +120,3 @@ irb(main):012:0>
 
 ## More Info
 - [Getting Started with ev3dev - ev3dev.org](http://www.ev3dev.org/docs/getting-started/)
-
