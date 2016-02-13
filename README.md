@@ -28,7 +28,7 @@ robot@ev3dev:~$ sudo gem install ev3dev
 
 (for OS X user; )
 ```
-$ scp /scp -r /Users/xxx/Downloads/ev3dev_ruby-master/examples robot@ev3dev.local:/home/robot
+$ scp -r /Users/xxx/Downloads/ev3dev_ruby-master/examples robot@ev3dev.local:/home/robot
 ```
 
 ### 2\. Run the program
