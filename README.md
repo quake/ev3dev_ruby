@@ -28,7 +28,7 @@ robot@ev3dev:~$ sudo gem install ev3dev
 
 (for OS X user; )
 ```
-$ scp /Users/xxx/Downloads/ev3dev_ruby-master/examples/*.* robot@ev3dev.local:/home/robot
+$ scp -r /Users/xxx/Downloads/ev3dev_ruby-master/examples robot@ev3dev.local:/home/robot
 ```
 
 ### 2\. Run the program
@@ -36,7 +36,8 @@ There are two different ways to run the program.
 #### A. Remote access from PC
 
 ```
-robot@ev3dev:~$ cd /home/robot
+robot@ev3dev:~$ cd /home/robot/examples
+robot@ev3dev:~$ cd motor
 robot@ev3dev:~$ ruby midiummotor.rb
 ```
 
@@ -44,7 +45,8 @@ robot@ev3dev:~$ ruby midiummotor.rb
 ##### 1. Add execute permission
 
 ```
-robot@ev3dev:~$ cd /home/robot
+robot@ev3dev:~$ cd /home/robot/examples
+robot@ev3dev:~$ cd motor
 robot@ev3dev:~$ ls -l
 ...
 -rw-r--r-- 1 robot robot  474 Jan 18 16:18 midiummotor.rb
@@ -112,13 +114,14 @@ irb(main):012:0>
 - [Sound](https://github.com/ev3dev/ev3dev/wiki/Using-Sound)
   - [aplay (ALSA sound driver)](http://linux.die.net/man/1/aplay)
   - [espeak (speech engine)](http://espeak.sourceforge.net/commands.html)
-
+- [LEDs](https://github.com/ev3dev/ev3dev/wiki/Using-the-LEDs)
+  - [LED Transient Trigger](https://www.kernel.org/doc/Documentation/leds/ledtrig-transient.txt)
+  - Original Led Class APIs are added. Checkout examples.
 
 #### These EV3 devices below are not supported yet.
 
 - [LCD](http://www.ev3dev.org/docs/tutorials/using-ev3-lcd/)
 - [Buttons](http://www.ev3dev.org/docs/tutorials/using-ev3-buttons/)
-- [LEDs](https://github.com/ev3dev/ev3dev/wiki/Using-the-LEDs)
 - [Bluetooth](https://github.com/ev3dev/ev3dev/wiki/Using-Bluetooth)
 
 
