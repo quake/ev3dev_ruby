@@ -14,11 +14,8 @@ sound.volume 10
 p sound.volume       #=> "9"
 
 text =
-"Hello, I am an EV3. \
-I like to talk because I am a robot. \
-Did you know that robots like to make sounds? \
-Beep. Boop. Dit. Dit. Meep.\
-I am just such a chatterbox."
+"Hello, I am a robot EV3. \
+ Now I can speak."
 
 sound.espeak "'#{text}'"
 sleep 3
@@ -27,10 +24,10 @@ sleep 3
 sound.espeak "-p 80 -s 210 '#{text}'"
 sleep 3
 
-sound.espeak "'From the direct character string, I am an EV3. I like to talk.'"
+sound.espeak "'From the direct character string, I am a robot EV3. I can speak.'"
 sleep 3
 
-sound.espeak "-p 60 -s 100 'With options, I can talk.'"
+sound.espeak "-p 60 -s 100 'With options, I can speak.'"
 sleep 3
 
 # speaks a text file: option -f

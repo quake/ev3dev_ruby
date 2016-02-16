@@ -9,7 +9,6 @@ module Ev3dev
     AMBER = [255, 255]
 
     MAX_BRIGHTNESS     = 255
-    DEFAULT_FLASH_TIME = 100
 
     def initialize()
       raise "couldn't find LED attributes" unless File.exist?(PATH)

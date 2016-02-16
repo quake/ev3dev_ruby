@@ -1,1 +1,1 @@
-Hello real world! I am an EV3. I like to talk because I am a robot. 
+Hello real world! I am a robot EV3. Now I can speak.
