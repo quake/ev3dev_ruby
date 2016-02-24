@@ -117,11 +117,11 @@ irb(main):012:0>
 - [LEDs](https://github.com/ev3dev/ev3dev/wiki/Using-the-LEDs)
   - [LED Transient Trigger](https://www.kernel.org/doc/Documentation/leds/ledtrig-transient.txt)
   - Original Led Class APIs are added. Checkout examples.
+- [Buttons](http://www.ev3dev.org/docs/tutorials/using-ev3-buttons/)
 
 #### These EV3 devices below are not supported yet.
 
 - [LCD](http://www.ev3dev.org/docs/tutorials/using-ev3-lcd/)
-- [Buttons](http://www.ev3dev.org/docs/tutorials/using-ev3-buttons/)
 - [Bluetooth](https://github.com/ev3dev/ev3dev/wiki/Using-Bluetooth)
 
 
